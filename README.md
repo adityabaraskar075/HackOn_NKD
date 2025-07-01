@@ -48,6 +48,7 @@ To run the project locally, follow these steps:
 bash
 # 1 ▪ Clone the repository
 git clone https://github.com/adityabaraskar075/HackOn_NKD.git
+
 cd HackOn_NKD
 
 # 2 ▪ Create the environment file
