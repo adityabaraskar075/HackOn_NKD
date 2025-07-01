@@ -45,21 +45,16 @@ A presentation summarizing the QSmartPay architecture, feature flows and impleme
 
 To run the project locally, follow these steps:
 
-bash
+```bash
 # 1 ▪ Clone the repository
 git clone https://github.com/adityabaraskar075/HackOn_NKD.git
-
 cd HackOn_NKD
 
 # 2 ▪ Create the environment file
 cat > .env.local <<'EOF'
-
 NEXT_PUBLIC_API_BASE_URL=https://your-api-endpoint.com
-
 NEXT_PUBLIC_CLIENT_ID=your-client-id
-
 NEXT_PUBLIC_SECRET_KEY=your-secret
-
 EOF
 
 # 3 ▪ Install dependencies
@@ -70,7 +65,7 @@ npm run build
 
 # 5 ▪ Start the development server
 npm run dev    # Visit http://localhost:9002
-
+```
 ---
 
 
