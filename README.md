@@ -52,9 +52,13 @@ cd HackOn_NKD
 
 # 2 ▪ Create the environment file
 cat > .env.local <<'EOF'
+
 NEXT_PUBLIC_API_BASE_URL=https://your-api-endpoint.com
+
 NEXT_PUBLIC_CLIENT_ID=your-client-id
+
 NEXT_PUBLIC_SECRET_KEY=your-secret
+
 EOF
 
 # 3 ▪ Install dependencies
